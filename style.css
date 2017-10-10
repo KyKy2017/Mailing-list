@@ -1,0 +1,9 @@
+fieldset {
+    background-color: plum;
+    font-family: sans-serif;
+    height: auto;
+}
+
+legend {
+    font-size: 30px;
+}

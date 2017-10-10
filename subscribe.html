@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <script type='text/javascript' src="script.js"></script>
+</head>
+
+<body>
+
+    <form id="myform1">
+        <fieldset>
+            <legend><strong>Subscribe</strong></legend>
+            <p>Sign up today to receive newsletters from us!</P>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+            <br /><br />
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" />
+            <br />
+            <p>Which topics would you like to subscribe?</p>
+            <input type="checkbox" id="topic1" onclick="updateMasterCheckbox()" value="Entertainment" />Entertainment<br />
+            <input type="checkbox" id="topic2" onclick="updateMasterCheckbox()" value="Sport" />Sport<br />
+            <input type="checkbox" id="topic3" onclick="updateMasterCheckbox()" value="Shopping" />Shopping<br />
+            <input type="checkbox" id="topic4" onclick="updateMasterCheckbox()" value="Technology" />Technology<br />
+            <input type="checkbox" id="topic5" onclick="updateMasterCheckbox()" value="Business" />Business<br /><br />
+            <input type="checkbox" id="MasterCheckbox" onclick="toggleAllCheckboxes()" />Select/Unselect all topics<br /><br />
+        </fieldset>
+    </form>
+
+    <button onclick="postRecord()">Subscribe</button>
+
+    <p id="result"></p>
+
+    <p id="result1"></p>
+
+
+</body>
+
+</html>
