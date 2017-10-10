@@ -1,0 +1,41 @@
+table {
+    margin: 12px;
+    padding: 12px;
+    overflow: hidden;
+    font-family: Verdana, Courier, monospace;
+    font-size: 15px;
+    font-style: bold;
+}
+
+tr 	{	
+	line-height: 35px;
+	}
+	
+input {
+	height: 20px;
+	}
+	
+body {
+	background-color: powderblue;
+	font-family: Verdana, Courier, monospace;
+	color: white;
+}
+
+h1 	{
+	font-size:35px;
+	color: white;
+	text-decoration: underline;
+}
+
+p  	{
+	font-size:15px;
+}
+
+button {
+	color: white;
+	font-family: Verdana, Courier, monospace;
+	font-style: bold;
+	background : none;
+	border-style: solid;
+	border-color: white;
+}
